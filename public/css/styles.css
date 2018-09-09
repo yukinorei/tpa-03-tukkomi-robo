@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+code {
+  font-size: 0.8em;
+}
+
+button {
+  font-size: 0.9em;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  width: 800px;
+}
+
+#tukkomi-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tukkomi-form label {
+  display: block;
+}
+
+#tukkomi-form input {
+  padding: 6px;
+  font-size: 18px;
+  width: 50%;
+}
+
+#tukkomi-form button {
+  width: 50%;
+}

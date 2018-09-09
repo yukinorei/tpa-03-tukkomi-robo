@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>ツッコミロボ</h1>
+    <img src="https://image.flaticon.com/icons/png/512/270/270137.png" width="30%" />
+
+    <form id="tukkomi-form">
+      <label for="phrase">何か入力してみて：</label>
+      <input autocomplete="off" type="text" name="phrase" id="phrase"/>
+      <button type="submit">つっこんで！</button>
+    </form>
+
+    <h1 id="robot-response"></h1>
+
+    <script type="module">
+      import { initApp } from './js/app.js';
+      initApp();
+    </script>
+</body>
+
+</html>
