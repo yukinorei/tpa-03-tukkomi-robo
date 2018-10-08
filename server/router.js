@@ -8,7 +8,7 @@ tukkomiRoboRouter.get('/', (req, res) => {
   console.log('phrase = ', phrase);
 
   if (!phrase) {
-    const errorMessage = 'エラーです';
+    const errorMessage = '何も言わんの？';
     res.send(errorMessage);
   } else {
     const tukkomiMessage = `${phrase}...って、${getRandomTukkomi()}`;
